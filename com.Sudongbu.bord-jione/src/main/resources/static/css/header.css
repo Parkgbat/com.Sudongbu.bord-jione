@@ -1,0 +1,114 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    border-top: 1px solid #ccc;
+    
+    
+}
+
+#header .header-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 1045px;
+    
+    border-bottom: 3px solid #ccc;
+}
+
+.h-top {
+    font-size: 12px;
+    width: 100%;
+    position: relative;
+    border-bottom: 3px solid #ccc ;
+
+
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-logo img {
+    width: 300px;
+    height: 120px;
+
+    object-fit: cover;
+}
+
+.title-con { 
+    display: flex;
+    justify-content: end;  
+    right: 0;
+    top: 5px;
+    text-align: right;
+    
+}
+
+.title-con li button {
+    margin-right: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 12px;
+}
+
+
+.h-top .bord-serch {
+    display: flex;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.bord-serch .itxt {
+    width: 195px;
+    border: 3px solid black;
+    margin-right: 2px;
+    padding: 1px 5px 2px;
+    height: 20px;       
+}
+.bord-serch button {
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+.nav-con {
+    display: flex;
+    justify-content: space-between;
+    bottom: 3px;
+
+    width: 100%;
+}
+
+
+.nav-con .nav-ul1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.li1 button {
+    width: 100%;
+    font-size: 15px;   
+    text-align: center;
+
+   
+    border-right:1px solid #ccc;
+}
+
+.li1  {
+    width: 100%;
+}
+
+.nav-con button:hover {
+    color: white;
+
+    background-color: black;
+    border-right:1px solid white;
+}

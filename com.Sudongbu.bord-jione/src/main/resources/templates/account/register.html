@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/account/register.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <div class="header-con">
+                <div class="h-top">
+                    <ul class="title-con">  
+                        <li><button type="button">로그인</button></li>
+                        <li><button type="button">로그아웃</button></li>
+                        <li><button type="button">회원가입</button></li>
+                        <li><button type="button">마이페이지</button></li>
+                    </ul>
+                    <div class="title">
+                        <div class="title-logo">
+                            <img src="/static/img/sudongbu_logo.png" alt="logo">
+                        </div>
+                        <div class="bord-serch">
+                            <input type="text" class="itxt" placeholder="게시판검색">
+                            <button type="button">검색</button>
+                        </div>
+
+                    </div>
+                </div>                
+                <nav class="nav-con">
+                    <ul class="nav-ul1">
+                        <li class="li1">
+                            <button type="button">공지방</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">유머</button>         
+                        </li>
+                        <li class="li1">
+                            <button type="button">게임추천</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">컨텐츠 추천</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">가이드/꿀팁</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">자랑하기</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">질문/답변</button>
+                        </li>
+                        <li class="li1">
+                            <button type="button">전체검색</button>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>      
+        <div id="main">
+            <div class="rgs-title">
+                <h2>회원가입</h2>
+            </div>
+            <h3>기본정보</h3>
+           
+            <div class="register">
+                <div class="errors errors-invisible">
+                    <ul class="error-msgs">
+                        
+                    </ul>
+                </div>
+                <div class="rgs-table"> 
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <th>아이디</th>
+                                    <td> <input type="userid" class="rgs-text account-input"  placeholder="아이디"></td>
+                                </tr>
+                                <tr>
+                                    <th>닉네임</th>
+                                    <td><input type="nickname" class="rgs-text account-input"  placeholder="닉네임"></td>
+                                </tr>
+                                <tr>
+                                    <th>이름</th>
+                                    <td><input type="username" class="rgs-text account-input"  placeholder="이름"></td>
+                                </tr>
+                                <tr>
+                                    <th>이메일</th>
+                                    <td><input type="email" class="rgs-text account-input" placeholder="이메일"></td>
+                                </tr>
+                                <tr>
+                                    <th>비밀번호</th>
+                                    <td><input type="password" class="rgs-text account-input" placeholder="비밀번호"></td>
+                                </tr>
+                            </tbody>
+                           
+                        </table>  
+                    <button type="submit" class="rgs-btn">확인</button>
+                </div>
+                
+            </div>
+            
+        </div>
+
+        <footer>
+            <div class="ft-main">
+                <div class="copyright">
+                    <address>
+                        <span>blackbat766@gmail.com</span>
+                    </address>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="/static/js/register.js"></script>
+</body> 
+</html>

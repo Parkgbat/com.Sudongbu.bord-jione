@@ -1,0 +1,82 @@
+
+
+.rgs-title {
+    display: block;
+    margin: 0 0 15px;
+    border-bottom: 2px solid #ccc;
+    letter-spacing: -0.05em;
+    color: #333;
+}
+
+.rgs-title h2 {
+    display: inline-block;
+    padding: 15px 15px 8px 15px;
+    background-size: 4px 20px;
+    font-size: 23px;
+}
+
+.rgs h3 {
+    padding: 50px 0 10px;
+    font-size: 16px;
+    color: #2e2e2e;
+}
+
+.rgs-table th:first-child {
+    border-left: 0;
+}
+
+.rgs-table tbody th {
+    padding: 11px 0 10px 18px;
+    border: 1px solid #dfdfdf;
+    border-bottom-width: 0;
+    color: #353535;
+    text-align: left;
+    font-weight: normal;
+    background-color: #fbfafa;
+}
+
+.rgs-table tbody td {
+
+    padding: 8px 10px 7px;
+    border-top: 1px solid #dfdfdf;
+    color: #353535;
+    vertical-align: middle;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.rgs-text {
+    height: 18px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+
+.rgs-btn {
+    text-align: center;
+    height: 50px;
+    padding: 0 24px;
+    border: 1px solid #131719;
+    border-bottom-color: #0c0f10;
+
+    width: 100%;
+    
+    color: #fff;
+    background: #1e2427;
+    background: linear-gradient(to bottom,#262c2f 100%,#1e2427 100%);
+    
+    font-size: 15px;
+    line-height: 47px;
+}
+
+.errors {
+    margin-bottom: 15px;
+    color: #e74c3c;
+    text-align: right;
+}
+
+.errors-invisible {
+    display: none;
+}

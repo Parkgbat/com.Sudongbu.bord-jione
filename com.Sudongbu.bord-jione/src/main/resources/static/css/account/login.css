@@ -1,0 +1,114 @@
+.login-main {
+    position: relative;
+    width: 400px;
+    margin: 20px auto 50px;
+}
+
+.login-title {
+    min-height: 30px;
+    margin: 0 0 20px;
+    border: 0;
+    font-family: 'Oswald','Nanum Gothic';
+}
+.login-title h3 {
+    display: block;
+    clear: both;
+    margin: 0;
+    text-align: center;
+    font-size: 41px;
+    color: #333;
+    font-weight: normal;
+}
+
+
+
+.login-user fieldset .id,
+.login-user fieldset .password {
+    overflow: hidden;
+    display: block;
+    margin: 0 0 10px;
+}
+
+
+
+fieldset {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    vertical-align: top;
+
+
+    position: relative;
+}
+.login-user fieldset input {
+    width: 396px;
+    height: 40px;
+    line-height: 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px !important;
+    text-indent: 10px;
+    letter-spacing: 0.1em;
+    transition: border-bottom .5s ease-in-out;
+
+    outline: none !important;
+}
+
+.login-user fieldset input:hover {
+    border-bottom: #333;
+}
+
+
+
+input[type=id],
+input[type=password] {
+    height: 18px;
+    line-height: 20px;
+    padding: 2px 4px;
+    border: 1px solid #d5d5d5;
+    color: #353535;
+    font-size: 12px;
+}
+
+
+
+
+.login-btn {
+    display: block;
+    text-align: center;
+    height: 50px;
+    padding: 0 24px;
+    border: 1px solid #131719;
+    border-bottom-color: #0c0f10;
+
+    width: 100%;
+    
+    color: #fff;
+    background: #1e2427;
+    background: linear-gradient(to bottom,#262c2f 100%,#1e2427 100%);
+    
+    font-size: 15px;
+    line-height: 47px;
+
+}
+
+.login-nav {
+    display: block;
+    margin: 0 0 20px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.login-nav li {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 9px 0 13px;
+}
+
+.login-nav li a {
+    font-size: 14px;
+    color: #666;
+}
